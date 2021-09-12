@@ -1,7 +1,6 @@
 {
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.windows": "zsh",
-    // "python.defaultInterpreterPath": "/usr/bin/zsh"
     "python.defaultInterpreterPath": "/usr/local/bin/python"
     
 }
