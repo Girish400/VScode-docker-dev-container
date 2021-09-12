@@ -20,3 +20,5 @@ OS: Windows_NT x64 10.0.19042
 **Expected result:**
 - **Run Python file in terminal** should load the **.zshrc** file and powerlevel10k prompt and alias cls should work without typing zsh in terminal
 -  [Github Link to docker file with extension](https://github.com/Girish400/VScode-docker-dev-container)
+
+[Github issue #](https://github.com/microsoft/vscode/issues/132952)
