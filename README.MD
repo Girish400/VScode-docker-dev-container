@@ -11,11 +11,11 @@ OS: Windows_NT x64 10.0.19042
 
 **Steps to Reproduce:**
 
-- Open new terminal from menu, powerlevel10k prompt will work and alias cls will clear the screen. Powerlevel10k prompt and alias cls work as expected.
+- Open new terminal from menu, powerlevel10k prompt will work and alias cls will clear the screen. Powerlevel10k prompt and alias cls work as expected. [Image](https://github.com/Girish400/VScode-docker-dev-container/raw/1b08c0130b717d5c00f8dc228095672f82fa8fab/Images/Pk10working.png)
 
-- Run python program [(link)](https://github.com/Girish400/VScode-docker-dev-container/blob/master/testpgm.py) using **Run Python file in terminal**,  powerlevel10k prompt will not work and alias cls will not work. 
+- Run python program using **Run Python file in terminal**,  powerlevel10k prompt will not work and alias cls will not work. [Image](https://github.com/Girish400/VScode-docker-dev-container/raw/1b08c0130b717d5c00f8dc228095672f82fa8fab/Images/Pk10notworking.png)
 
-- But after running the python program, type in **zsh**  in the terminal, powerlevel10k prompt and alias cls will start working
+- But after running the python program, type in **zsh**  in the terminal, powerlevel10k prompt and alias cls will start working [Image](https://github.com/Girish400/VScode-docker-dev-container/raw/master/Images/Pk10workingafterzsh.png)
 
 **Expected result:**
 - **Run Python file in terminal** should load the **.zshrc** file and powerlevel10k prompt and alias cls should work without typing zsh in terminal
