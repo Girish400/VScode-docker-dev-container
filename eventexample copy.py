@@ -1,14 +1,13 @@
 import eventkit as ev
 from time import sleep 
-from ib_insync.util import timeit
-from ib_insync.util import run as _run
+from ib_insync.util import timeit,run as _run
 import asyncio
 
-def Event1(a, b):
+async def Event1(a, b):
     sleep(1)
     print("Running Event 1: ",a * b)
 
-def Event2(a, b):
+async def Event2(a, b):
     sleep(1)
     print("Running Event 2: ",a / b)
 
