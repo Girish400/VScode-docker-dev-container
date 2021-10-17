@@ -12,10 +12,10 @@ def Event2(a, b):
     sleep(1)
     print("Running Event 2: ",a / b)
 
-async def test():
-    print("Printing test")
+async def Event3():
+    print("Start -Event 3")
     await asyncio.sleep(1)
-    print("Girish")
+    print("End - Event 3")
 
 event1 = ev.Event()
 event1 += Event1
@@ -31,4 +31,4 @@ with timeit():
     event2.emit(10, 5)
 
 with timeit():
-    _run(test(),test())
+    _run(Event3(),Event3())
