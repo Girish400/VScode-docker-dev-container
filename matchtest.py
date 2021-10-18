@@ -10,4 +10,10 @@ def http_error(status):
         case _:
             return "Something's wrong with the internet"
 
+def http_error1(status):
+    match status:
+        case 401 | 403 | 404:
+            return "Not allowed"
+            
 print(http_error(404))
+print(http_error1(404))

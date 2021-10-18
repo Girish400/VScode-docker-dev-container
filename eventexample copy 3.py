@@ -56,8 +56,8 @@ async def main():
 # This will start the coroutines(Event1,Event2). 
 # Question 4: Introducing a new coroutine and running it with asyncio, why does the coroutines(Event1 and Event2)  
 # print statements get executed?
-# if __name__ == '__main__':
-#     with timeit():
-#         loop = asyncio.get_event_loop()
-#         loop.run_until_complete(main())
-#         _run(Eventn(10,5,3),Eventn(10,10,4))
+if __name__ == '__main__':
+    with timeit():
+        loop = asyncio.get_event_loop()
+        loop.run_until_complete(main())
+        _run(Eventn(10,5,3),Eventn(10,10,4))
